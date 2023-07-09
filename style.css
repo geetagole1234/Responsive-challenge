@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@media only screen and (max-width: 600px){
+#responsive{
+    width: 100%;
+    height: 800px;
+    background-color: red;
+   
+}
+
+
+  .images{
+    height: 400px;
+    width: 100%;
+    background: url(/images/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+h2{
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 50%;
+}
+
+#section{
+    width: 100%;
+    height: 400px;
+    background-color: grey;
+ 
+    
+}
+.c1{
+    width: 100%;
+    height:400px ;
+    background-color: red;
+}
+.c2{
+    width: 100%;
+    height:400px ;
+    background-color: green;
+}
+.c3{
+    width: 100%;
+    height:400px ;
+    background-color: blue;
+}
+}
+
+@media only screen and (min-width: 600px){
+    #responsive{
+        width: 100%;
+        height: 800px;
+        background-color: green;
+        position: relative;
+    }
+    .images{
+        height: 400px;
+        width: 100%;
+        background:url(/images/header.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    h2{
+        color: white;
+        text-transform: capitalize;
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+        font-family:'Times New Roman', Times, serif;
+        position: absolute;
+        margin-top: 5%;
+        margin-left: 50%;
+    }
+    #section{
+        width: 100%;
+        height: 500px;
+        background-color: grey;
+      
+        
+    }
+    .c1{
+        width: 50%;
+        height:400px ;
+        background-color: red;
+float: left;
+    }
+    .c2{
+        width: 50%;
+        height:400px ;
+        background-color: green;
+        float: left;
+    }
+    .c3{
+        width: 100%;
+        height:400px;
+        background-color: blue;
+        float: left;
+    }
+   
+}
+@media only screen and (min-width: 1200px){
+    #responsive{
+        width: 100%;
+        height: 800px;
+        background-color: blue;
+    }
+    .images{
+        height: 400px;
+        width: 100%;
+        background:url(/images/header.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    h2{
+        color: white;
+        text-transform: capitalize;
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+        font-family:'Times New Roman', Times, serif;
+        position: absolute;
+        margin-top: 5%;
+        margin-left: 50%;
+    }
+    #section{
+        width: 100%;
+        height: 400px;
+        background-color: grey;
+       
+       
+        
+    }
+    .c1{
+        width: 33%;
+        height:400px ;
+        background-color: red;
+        float: left;
+      
+        
+    }
+    .c2{
+        width: 34%;
+        height:400px ;
+        background-color: green;
+        float: left;
+    }
+    .c3{
+        width: 33%;
+        height:400px ;
+        background-color: blue;
+        float: left;
+        float: left;
+    }
+
+      
+}
